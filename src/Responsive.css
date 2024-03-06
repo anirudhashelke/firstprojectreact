@@ -1,0 +1,30 @@
+@media screen  and (max-width: 768px) {
+    .a-headers{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+     .a-head{
+        width: 33% !important;  
+    } 
+    .a-headers .a-head h5{
+        font-size:6px !important;
+    }
+    
+    header nav ul li a{
+        font-size: 8px !important;
+        padding:7px !important;
+        color: aqua !important;
+    }
+    header nav ul{
+        display: flex !important;
+        justify-content: center !important;
+        gap: 10px !important;
+    }
+    .a-under  .a-gau{
+        font-size: 17px !important;
+        text-align: center !important;
+        padding:10px 0px  !important;
+        
+    }
+}

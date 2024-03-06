@@ -1,38 +1,191 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header style */
+header h5{
+    font-size: 15px;
+    color: #fff;
+}
+header .a-icons{
+    font-size: 20px;
+    color: #f1db25;
+     margin-right: 3px;
+     
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+} 
+header nav .a-nav-home{
+    padding: 28px 15px 10px 15px;
+    background-color:#1c1c1c;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:#fff !important;
+    font-size: 16px;
+     font-weight: 500;
+     padding: 28px 21px 10px 22px;
+     
+}
+header nav ul li a:hover{
+    background-color:#1c1c1c;
+    
+}
+header .a-nav{
+    background-image: url("./img/hero-bg.jpg");
+    background-position: 0% 5%;
+    background-repeat: no-repeat;
+    
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* banner part */
+.a-banner h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+}
+.a-banner{
+    background-image: url("./img/hero-bg\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position:0% 19%;
+}
+.a-banner .a-read{
+    padding: 10px 35px;
+    background-color: #fff;
+    color: #000;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border: 1px solid transparent;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.a-banner .a-read:hover{
+background-color: #000;
+color: #fff;
+border: 1px solid #fff;
+}
+ .a-button{
+    padding: 10px 35px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border: 1px solid transparent;
+    font-weight: 400;
+    background-color: #f1db25;
+    color: #fff;
+  
+
+}
+ .a-button:hover{
+    background-color: transparent;
+    color:#f1db25;
+    border: 1px solid #f1db25;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* About  pars style */
+.a-About-img{
+background-image: url("./img/about-img.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 380px;
+
+}
+.a-about-right  h1{
+    font-size: 2rem;
+    font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* services part style */ 
+.a-service{
+    background-color:#1c1c1c ;
+}
+.a-h1{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+.a-service h6{
+    font-size: 18px ;
+    font-weight: 700;
+}
+.a-service p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0c0c0c;
 }
 
-.App-link {
-  color: #61dafb;
+/* contact part style */
+.a-contact{
+    background-image: url("./img/contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a-contact input{
+    width: 100%;
+    padding: 8px 0px;
+    margin-bottom:25px;
+}
+.a-contact input:focus{
+    outline: none;
+}
+.a-contact textarea{
+    width: 100%;
+}
+.a-contact textarea:focus{
+    outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* guards past style */
+.a-guards{
+    background-image: url("./img/g-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+.a-guards1{
+    background-image: url("./img/g-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+.a-guards2{
+    background-image: url("./img/g-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+.a-guard{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    background-color: rgba(28, 28, 28, .75);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+        
+}
+.a-guard h5{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.a-guard h6{
+    font-size: 1rem;
+    font-weight: 500;
+}
+/* footer */
+footer{
+background-color: #0c0c0c;
+text-align: center;
+}
+footer h1{
+    font-size: 18px;
+    color: #fff;
 }
