@@ -2,8 +2,11 @@ import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCallSharp } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
+
   return (
     <>
    <div>
@@ -35,13 +38,21 @@ const Header = () => {
         <div className='col-12 col-md-5'>
             <nav>
                <ul>
-               <li><a className='a-nav-home' href="#">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
+               {/* <li><a className='a-nav-home' href="#">HOME</a></li> */}
+                {/* <li><a href="">ABOUT</a></li> */}
+
+                <li><Link className='a-nav-home' to={"/"}>Home </Link></li>
+                <li><Link to={"/about"}>About </Link></li>
+                <li><Link to={"/contact"}>Contact </Link></li>
+                <li><Link to={"/services"}>Services </Link></li>
+                <li><Link to={"/guards"}>Guards </Link></li>
                
-                <li><a href="#">SERVICES</a></li>
+
+                {/* <li><a href="#">SERVICES</a></li>
                 <li><a href="#">GUARDS</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">CONTACT US</a></li> */}
                </ul>
+               
             </nav>
         </div>
     </div>
